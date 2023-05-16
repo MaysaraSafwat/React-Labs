@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+  height: 5vh;
+  background-color: rgb(230, 228, 228);
+}
+.nav-links{
+  text-align: end;
+}
+.nav-links a{
+  text-decoration: none;
+  color: gray;
+  font-size: 1.2em;
+  margin: 15px;
+}
+.nav-links a:active{
+  border-bottom: 2px solid gray;
+}
+form{
+  padding: 2%;
+}
+
+.form-group label {
+  margin: 16px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  max-width: 40%;
+}
+.form-group input {
+  height: 2vh;
+  border: 1px solid lightgray;
+  width: 50%;
+  padding: 1.5%;
+  border-radius: 20px;
+}
+form button {
+  padding: 1% 2%;
+  background-color: #087f5b;
+  margin: 1%;
+  border: none;
+  border-radius: 50px;
+  color: white;
+}
+table {
+  width: 50%;
+  margin: 1% auto;
+}
+td,
+th {
+  padding: 16px 24px;
+  text-align: left;
+}
+
+thead tr {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+thead th {
+  width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #e9ecef;
+}
+.action-btn-d{
+  padding: 10px 15px;
+  background-color: rgba(8,127,91, 0.7);
+  margin: 1%;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+}
