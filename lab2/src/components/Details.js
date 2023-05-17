@@ -2,7 +2,6 @@
 
 export default function Details({students}){
 
- 
 
     return(
        <div>
